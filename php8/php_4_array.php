@@ -101,7 +101,57 @@ echo $sinif["200"]["notlar"]["kimya"][2]."<br>";
 
 //Dizi fonksiyonları
 
-echo count($sinif["200"]["notlar"]["matematik"]);
+$notlar = array(60,70,40,80);
+$plakalar = array("41"=> "kocaeli","34"=>"İstanbul","53"=>"rize");
+
+print_r(array_count_values($notlar)); 
+
+print_r(array_flip($notlar));
+
+$index = array_rand($notlar,2);
+print_r($index);
+
+//diziye ekleme sona
+array_push($notlar,100);
+
+//diziye ekleme başa
+array_unshift($notlar)."<br>";
+
+//diziden silme -sondan
+array_pop($plakalar);
+
+//diziden silme -baştan
+array_shift($plakalar);
+
+
+// kaç tane var
+echo count($notlar)."<br>";
+echo count($plakalar)."<br>";
+
+//Sıralama -artan 
+sort($plakalar);
+asort($plakalar); //value
+ksort($plakalar); //key
+//Sıralama -azalan
+rsort($notlar);
+arsort($plakalar); //value
+krsort($plakalar); //key
+
+
+print_r($notlar)."<br>"; //doğrudan kodu okur
+print_r($plakalar)."<br>";
+
+// string to array
+$str = "kocaeli,41";
+$arr = explode(",",$str);
+print_r($arr);
+
+//array to string
+$arr = array("sadik","mail@gmail.com");
+$str = implode(",",$arr);
+
+print_r($arr);
+echo $str;
 
 
 
