@@ -27,8 +27,8 @@
             "fiyat"=> 50000),
         );  
 
-     foreach($urunler1 as $urun => $value){
-        echo $key." ".$value["urun_adi"]." ".$value["fiyat"]."<br>";    
+     foreach($urunler1 as $urun => $value ){
+        echo " ".$value["urun_adi"]." ".$value["fiyat"]."<br>";    
      }   
 
 

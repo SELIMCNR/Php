@@ -9,7 +9,7 @@
   }
 
   $ornekSayi=5;
-  toplam($ornekSayi);  // fonksiyonda value değer gelir
+  toplama($ornekSayi);  // fonksiyonda value değer gelir
 
   echo $ornekSayi;  // globaldeki değişken değeri gelir
 
@@ -20,7 +20,7 @@
   }
 
   $ornekSayi=5;
-  toplam($ornekSayi);  // fonksiyonda reference değer gelir
+  toplama($ornekSayi);  // fonksiyonda reference değer gelir
 
   echo $ornekSayi;  // reference değeri gelir
 

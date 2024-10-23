@@ -15,7 +15,7 @@
     function alanCevreHesapla($kisaKenar, $uzunKenar){
         $alan = $kisaKenar * $uzunKenar;
         $cevre = 2 * ($kisaKenar + $uzunKenar);
-        return "Alan: "+ $alan + "Çevre "+ $cevre;
+        return "Alan ". $alan . " Çevre ". $cevre;
     }
     echo alanCevreHesapla(5, 10);
 

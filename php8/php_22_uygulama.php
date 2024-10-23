@@ -159,7 +159,7 @@ $title = "Kurslar";
                                 </a>  
                             
                                 <p class="card-text">
-                                <?php echo kisaAciklama($kurs["altBaslik"]); ?></p>
+                                <?php echo kisaAciklama($kurs["aciklama"]); ?></p>
                                 <span class="badge rounded-pill text-bg-primary"><?php echo "Beğeni".$kurs["begeniSayisi"]; ?></span> 
                             
                             <span class="badge rounded-pill text-bg-primary"><?php echo "Yorum".$kurs["yorumSayisi"]; ?></span> 

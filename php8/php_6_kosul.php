@@ -9,7 +9,7 @@
     $username = "admin";
     $password = "1234";
 
-    if(username == "admin"){
+    if($username == "admin"){
         if($password == "1234"){
             echo "Hoşgeldiniz";
     }

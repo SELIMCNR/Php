@@ -1,6 +1,7 @@
 <?php
 
     $yas = 20;
+    $egitim ="lise";
 
     if($yas >= 18){
         if($egitim == "lise" or $egitim == "üniversite"){
