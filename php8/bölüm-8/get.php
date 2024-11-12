@@ -30,6 +30,7 @@ if($_GET){
 
 </br>
 <h1>Aynı sayfa içerisindeki get işlemi</h1>
+<!--- get işleminde urlde gözükür -->
    <form action="get.php">
         <input type="text" name="q" >
         <input type="text" name="category" >
