@@ -12,6 +12,20 @@ array(
 
 );
 
+$sehirler = array(
+    "06" => "Ankara",
+    "46" => "Kahramanmaraş" ,
+    "34" => "İstanbul" ,
+    "53" => "Rize",
+    "38"   => "Kayseri"
+);
+
+$hobiler = array(
+    "1" => "Sinema",
+    "2" => "Spor" ,
+    "3" => "Müzik"
+);
+
 
 $kurslar = array(
     "0" => array(

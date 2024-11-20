@@ -3,15 +3,26 @@
 require "libs/variables.php";
 require "libs/functions.php";
 
-sort($kategoriler);
-
-kursEkle($kurslar,"yeni kurs 1","yeni kurs altbaşlık 1","1.jpg","10.10.2023");
-kursEkle($kurslar,"yeni kurs 2","yeni kurs altbaşlık 2","1.jpg","10.10.2023");
 
 
 
 
+?>
+<?php 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $title = $_POST["title"] ?? '';
+    $subtitle = $_POST["subtitle"] ?? '';
+    $image = $_POST["image"] ?? '';
+    $dateAdded = $_POST["dateAdded"] ?? '';
 
+    if (!empty($title) && !empty($subtitle) && !empty($image) && !empty($dateAdded)) {
+        kursEkle($kurslar, $title, $subtitle, $image, $dateAdded);
+    } else {
+        echo "Tüm alanları doldurun!";
+    }
+}
+
+  
 ?>
 
 <?php
