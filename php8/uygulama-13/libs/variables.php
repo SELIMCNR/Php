@@ -2,6 +2,13 @@
 
 const title = "Popüler Kurslar";
 
+const db_user = array(
+    "username" => "selim",
+    "password" => "1907fenerbahce",
+    "name" => "Selim"
+);
+
+
 $kategoriler = array(
     array("kategori_adi" => "Programlama", "aktif" => true),
     array("kategori_adi" => "Web Geliştirme", "aktif" => false),

@@ -5,9 +5,6 @@ require "libs/functions.php";
 
 sort($kategoriler);
 
-kursEkle($kurslar, "yeni kurs 1", "yeni kurs altbaşlık 1", "1.jpg", "10.10.2023");
-kursEkle($kurslar, "yeni kurs 2", "yeni kurs altbaşlık 2", "1.jpg", "10.10.2023");
-
 
 
 
@@ -31,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $usernameErr = "username gerekli alan. ";
     } else {
         $username = safe_html($_POST["username"]);
+        $db_user["username"] = $username;
     }
 
     if (empty($_POST["email"])) {
@@ -43,6 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $passwordErr = "password gerekli alan. ";
     } else {
         $password = safe_html($_POST["password"]);
+        $db_user["password"] = $password;
     }
 
 
@@ -75,6 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo " <pre>";
     print_r($_POST);
     echo " </pre>";
+    header("Location:login.php");
 }
 
 ?>
