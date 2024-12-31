@@ -1,0 +1,62 @@
+{
+    "kategoriler": [
+        {
+            "id": 1,
+            "kategori_adi": "Programlama",
+            "aktif": true
+        },
+        {
+            "id": 2,
+            "kategori_adi": "Web Geli\u015ftirme",
+            "aktif": false
+        },
+        {
+            "id": 3,
+            "kategori_adi": "Veri Analizi",
+            "aktif": false
+        },
+        {
+            "id": 4,
+            "kategori_adi": "Mobil Uygulama",
+            "aktif": false
+        }
+    ],
+    "kurslar": [
+        {
+            "baslik": "Php Kursu",
+            "altBaslik": "S\u0131f\u0131rdan ileri seviye Php ile web Geli\u015ftirme kursu",
+            "resim": "1.jpg",
+            "yayinTarihi": "05.07.2024",
+            "yorumSayisi": 0,
+            "begeniSayisi": 10,
+            "onay": true
+        },
+        {
+            "baslik": "Python Kursu",
+            "altBaslik": "S\u0131f\u0131rdan ileri seviye Python ile web Geli\u015ftirme kursu",
+            "resim": "1.jpg",
+            "yayinTarihi": "05.07.2024",
+            "yorumSayisi": 0,
+            "begeniSayisi": 10,
+            "onay": true
+        },
+        {
+            "baslik": "Django.js Kursu",
+            "altBaslik": "S\u0131f\u0131rdan ileri seviye Django.js ile web Geli\u015ftirme kursu",
+            "resim": "1.jpg",
+            "yayinTarihi": "05.07.2024",
+            "yorumSayisi": 0,
+            "begeniSayisi": 10,
+            "onay": true
+        },
+        {
+            "baslik": "xamarin 15",
+            "altBaslik": "\u0131ler",
+            "resim": "2.jpg",
+            "yayinTarihi": "01.05.2024",
+            "yorumSayisi": 0,
+            "begeniSayisi": 0,
+            "onay": true
+        }
+    ]
+}
